@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "MidtermProject",
+    "slug": "MidtermProject",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
