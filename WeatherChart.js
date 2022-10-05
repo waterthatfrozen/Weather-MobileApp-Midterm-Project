@@ -23,8 +23,6 @@ const chartConfig = {
 
 export class WeatherChart extends Component {
     render(){
-        console.log(SCREEN_WIDTH);
-        console.log(82+20+285+20);
         return (
         <View style={{flexDirection: 'column'}}>
             <View>
