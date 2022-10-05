@@ -111,6 +111,7 @@ export class CityScreen extends Component {
                     cityName={city.name} 
                     key={index} 
                     onPress={() => {this.handleCityButtonPress(city.code);}} 
+                    // prevent button spamming while data is still loading 
                     disabled={this.state.fetching || this.state.currentCity.code === city.code}
                     focused={this.state.currentCity.code === city.code}
                     style={styles.cityButton} />
